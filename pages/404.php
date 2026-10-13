@@ -1,0 +1,1 @@
+<section class="page-hero"><div class="container"><div class="breadcrumb">Error 404</div><h1>Page Not Found</h1><p>The address may have changed, but the work continues.</p><a class="button button-light" href="index.php?page=home">Back to home <i class="bi bi-arrow-up-right"></i></a></div></section>

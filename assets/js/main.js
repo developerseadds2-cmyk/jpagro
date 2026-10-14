@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const logoCarousel = document.querySelector('[data-logo-carousel]');
     const logoTrack = logoCarousel?.querySelector('.logos');
     const logoItems = [...(logoCarousel?.querySelectorAll('.logo-chip') || [])];
-    const logoPrev = logoCarousel?.querySelector('.logo-carousel-prev');
-    const logoNext = logoCarousel?.querySelector('.logo-carousel-next');
     let slideIndex = 0;
 
     const hidePreloader = () => {
@@ -50,8 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         setLogoWidths();
         window.addEventListener('resize', setLogoWidths);
-        logoPrev?.addEventListener('click', () => logoCarousel.classList.toggle('is-paused'));
-        logoNext?.addEventListener('click', () => logoCarousel.classList.toggle('is-paused'));
     }
 
     document.querySelectorAll('.filter-button').forEach(button => button.addEventListener('click', () => {

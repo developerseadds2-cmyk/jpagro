@@ -7,9 +7,9 @@
         <h1>Parts for the machines<br>that keep farms moving.</h1>
         <p>Components for combine harvesters, straw reapers, super seeders and threshers.</p>
         <div class="hero-actions"><a class="button button-light" href="index.php?page=products">Explore products <i
-                    class="bi bi-arrow-up-right"></i></a><a class="button" href="<?= e(page_url('contact')) ?>">Get a quote <i
-                    class="bi bi-arrow-up-right"></i></a></div>
-    </div> 
+                    class="bi bi-arrow-up-right"></i></a><a class="button" href="<?= e(page_url('contact')) ?>">Get a
+                quote <i class="bi bi-arrow-up-right"></i></a></div>
+    </div>
     <div class="hero-dots" aria-label="Hero slides"><button class="hero-dot is-active" type="button"
             aria-label="Show slide 1"></button><button class="hero-dot" type="button"
             aria-label="Show slide 2"></button><button class="hero-dot" type="button"
@@ -79,8 +79,9 @@
         </div>
         <div class="product-grid">
             <?php foreach (array_slice($products, 0, 4) as $product): ?>
-                <article class="product-card reveal"><div class="product-photo-frame"><img class="product-photo"
-                        src="<?= asset($product['image']) ?>" alt="<?= e($product['name']) ?>" width="500" height="500" loading="lazy"></div>
+                <article class="product-card reveal">
+                    <div class="product-photo-frame"><img class="product-photo" src="<?= asset($product['image']) ?>"
+                            alt="<?= e($product['name']) ?>" width="500" height="500" loading="lazy"></div>
                     <div class="product-body">
                         <div class="category">
                             <?= e($product['category']) ?>
@@ -144,8 +145,6 @@
             <p>We work with established industrial brands and supply partners to support our component requirements.</p>
         </div>
         <div class="logo-carousel" data-logo-carousel aria-label="Selected industrial brands">
-            <button class="logo-carousel-button logo-carousel-prev" type="button" aria-label="Previous brand"><i
-                    class="bi bi-arrow-left"></i></button>
             <div class="logos-viewport">
                 <div class="logos">
                     <span class="logo-chip"><img class="logo-wordmark" src="assets/images/brands/1.png"
@@ -162,10 +161,10 @@
                     <span class="logo-chip"><img class="logo-wordmark" src="assets/images/brands/8.png"
                             alt="Brand 8"></span>
                     <span class="logo-chip"><img src="assets/images/brands/9.png" alt="Brand 9"></span>
+                    <span class="logo-chip"><img src="assets/images/brands/10.jpg" alt="Brand 10"></span>
+
                 </div>
             </div>
-            <button class="logo-carousel-button logo-carousel-next" type="button" aria-label="Next brand"><i
-                    class="bi bi-arrow-right"></i></button>
         </div>
     </div>
 </section>

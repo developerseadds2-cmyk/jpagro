@@ -67,6 +67,16 @@ function verify_csrf(string $token): bool
 }
 
 $products = [
+    ['name' => 'Combine Paddy Basket', 'category' => 'Combine Parts', 'image' => 'images/products/Combine paddy basket.jpeg'],
+    ['name' => 'Combine Paddy Thresher', 'category' => 'Combine Parts', 'image' => 'images/products/Combine paddy thresher.jpeg'],
+    ['name' => 'Combine Wheat Basket', 'category' => 'Combine Parts', 'image' => 'images/products/Combine wheat basket.jpeg'],
+    ['name' => 'Combine Wheat Thresher', 'category' => 'Combine Parts', 'image' => 'images/products/Combine wheat thresher.jpeg'],
+    ['name' => 'Reaper Basket (8 mm Rod)', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Reaper basket 8 mm rod.jpeg'],
+    ['name' => 'Straw Chopper Thresher', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw chopper thresher.jpeg'],
+    ['name' => 'Straw reaper blead flat', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper blead flat.jpeg'],
+    ['name' => 'Straw Reaper Other Shafts', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper other shafts.jpeg'],
+    ['name' => 'Straw Reaper Shaft Set', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper shaft set.jpeg'],
+    ['name' => 'Super Seeder Pistol Rod', 'category' => 'Super Seeder Parts', 'image' => 'images/products/Super seeder pistol rod.jpeg'],
     ['name' => 'Self & Tractor Combine Harvester Shaft Set', 'category' => 'Combine Parts', 'image' => 'images/products/ResigedProducts/Self & tractor  Combine harvester  shaft set.jpg'],
     ['name' => 'Combine & Reaper Bush', 'category' => 'Combine Parts', 'image' => 'images/products/ResigedProducts/Combine&reaper bush.jpg'],
     ['name' => 'Straw Reaper Thresher', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/ResigedProducts/Straw reaper thresher.jpg'],

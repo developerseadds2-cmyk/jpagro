@@ -16,7 +16,7 @@
         <div class="product-grid"><?php foreach ($products as $product): ?>
                 <article class="product-card reveal" data-category="<?= e($product['category']) ?>">
                     <div class="product-photo-frame<?= !empty($product['hover_image']) ? ' has-hover-image' : '' ?>"><img class="product-photo" src="<?= asset($product['image']) ?>"
-                            alt="<?= e($product['category']) ?> illustration" width="500" height="500" loading="lazy"><?php if (!empty($product['hover_image'])): ?>
+                            alt="<?= e($product['name']) ?>" width="500" height="500" loading="lazy"><?php if (!empty($product['hover_image'])): ?>
                             <img class="product-photo-hover" src="<?= asset($product['hover_image']) ?>" alt="" aria-hidden="true" width="500" height="500" loading="lazy"><?php endif; ?></div>
                     <div class="product-body">
                         <div class="category"><?= e($product['category']) ?></div>

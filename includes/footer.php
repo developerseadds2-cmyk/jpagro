@@ -27,7 +27,11 @@
             <p><i class="bi bi-geo-alt"></i> <?= e(COMPANY_ADDRESS) ?></p>
             <a href="tel:<?= e(preg_replace('/[^0-9+]/', '', PHONE_NUMBER)) ?>"><i class="bi bi-telephone"></i>
                 <?= e(PHONE_NUMBER) ?></a>
+               
+                <a href="tel:9781200555"><i class="bi bi-telephone"></i>+91 9781200555</a>
             <a href="mailto:<?= e(CONTACT_EMAIL) ?>"><i class="bi bi-envelope"></i> <?= e(CONTACT_EMAIL) ?></a>
+            <a href="mailto:jpagroindustries55@gmail.com"><i class="bi bi-envelope"></i> jpagroindustries55@gmail.com</a>
+
         </div>
     </div>
     <div class="container footer-bottom">

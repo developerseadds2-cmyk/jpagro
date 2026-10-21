@@ -73,7 +73,7 @@ $products = [
     ['name' => 'Combine Wheat Thresher', 'category' => 'Combine Parts', 'image' => 'images/products/Combine wheat thresher.jpeg'],
     ['name' => 'Reaper Basket (8 mm Rod)', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Reaper basket 8 mm rod.jpeg'],
     ['name' => 'Straw Chopper Thresher', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw chopper thresher.jpeg'],
-    ['name' => 'Straw reaper blead flat', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper blead flat.jpeg'],
+    ['name' => 'Straw Reaper Blade Flat', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper blead flat.jpeg'],
     ['name' => 'Straw Reaper Other Shafts', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper other shafts.jpeg'],
     ['name' => 'Straw Reaper Shaft Set', 'category' => 'Straw Reaper Parts', 'image' => 'images/products/Straw reaper shaft set.jpeg'],
     ['name' => 'Super Seeder Pistol Rod', 'category' => 'Super Seeder Parts', 'image' => 'images/products/Super seeder pistol rod.jpeg'],
